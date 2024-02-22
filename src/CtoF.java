@@ -41,7 +41,7 @@ public class CtoF {
                     } else //Invalid temp catcher
                     {
                         trash = tempIn.nextLine();
-                        System.out.print("That is not a valid temperature! " +trash);
+                        System.out.println("That is not a valid temperature! " +trash);
                     }
 
                 } while(!tempDone);
