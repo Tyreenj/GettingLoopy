@@ -16,6 +16,7 @@ public class CtoF {
         do
         {
             System.out.print("Is your temperature in C or F? ");
+            //Converting to correct format
             type = typeIn.nextLine();
             type = type.toUpperCase();
 
