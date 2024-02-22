@@ -37,8 +37,10 @@ public class GettingLoopy {
 
         // Task 5
         /*
+        //Rows
         for(int row = 0; row < 6; row++)
         {
+            //Columns
             for(int col = 0; col < row; col++)
             {
                 System.out.print("*");
@@ -49,8 +51,10 @@ public class GettingLoopy {
 
         //Task 6
         /*
+        //Rows
         for(int row = 5; row > 0; row--)
         {
+            //Columns
             for(int col = 0; col < row; col++)
             {
                 System.out.print("*");
@@ -61,10 +65,11 @@ public class GettingLoopy {
 
         //Task 7
         /*
+        //Rows
         for(int row = 0; row < 5; row++)
         {
             System.out.print("*");
-
+            //Columns
             for(int col = 0; col < 5; col++)
             {
                 System.out.print("*");
@@ -74,10 +79,13 @@ public class GettingLoopy {
          */
 
         //Extra Credit
+        //Rows
         for(int row = 1; row <= 8; row++)
         {
+            //Columns
             for(int col = 1; col <= 8; col++)
             {
+                //Check when to print *'s
                 if(col == 1 || col == 8 || col==row)
                 {
                     System.out.print("*");
